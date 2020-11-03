@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "projectName": "Madlibs",
+      "description": "blabla",
+      "githubLink": "https://github.com/jennethydyrova/mad-libs",
+      "demoLink": "https://madlibs-js.netlify.app/"
+    },
+    {
+      "projectName": "Movie project",
+      "description": "blabla",
+      "githubLink": "https://github.com/jennethydyrova/movie-project",
+      "demoLink": "https://nostalgic-pike-27e601.netlify.app/"
+    },
+    {
+      "projectName": "Task manager",
+      "description": "blabla",
+      "githubLink": "https://github.com/jennethydyrova/board-project",
+      "demoLink": "https://nostalgic-pike-27e601.netlify.app/"
+    }
+  ]
+}

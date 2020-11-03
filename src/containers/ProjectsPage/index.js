@@ -1,10 +1,12 @@
 import React from "react";
+import ProjectCards from "../../components/ProjectCards";
+import { Container } from "react-bootstrap";
 
 const ProjectsPage = () => {
   return (
-    <div>
-      <h2>it's projects page</h2>
-    </div>
+    <Container>
+      <ProjectCards />
+    </Container>
   );
 };
 
