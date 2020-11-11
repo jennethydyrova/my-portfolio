@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Container, Row, Col } from "react-bootstrap";
+import { Card, Container, Row } from "react-bootstrap";
 import projectData from "./projectData.json";
 import githubSvg from "./images/github.svg";
 import showSvg from "./images/show.svg";
