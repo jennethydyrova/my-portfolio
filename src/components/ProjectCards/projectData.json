@@ -7,16 +7,28 @@
       "demoLink": "https://madlibs-js.netlify.app/"
     },
     {
-      "projectName": "Movie project",
+      "projectName": "Movie Project",
       "description": "blabla",
       "githubLink": "https://github.com/jennethydyrova/movie-project",
       "demoLink": "https://nostalgic-pike-27e601.netlify.app/"
     },
     {
-      "projectName": "Task manager",
+      "projectName": "Task Manager",
       "description": "blabla",
       "githubLink": "https://github.com/jennethydyrova/board-project",
-      "demoLink": "https://nostalgic-pike-27e601.netlify.app/"
+      "demoLink": "https://task-manager-web.netlify.app/"
+    },
+    {
+      "projectName": "Safe Place",
+      "description": "blabla",
+      "githubLink": "https://github.com/ReCoded-Org/capstone-istanbul-safe_place",
+      "demoLink": "https://safe-place.netlify.app/"
+    },
+    {
+      "projectName": "M.Y-Inventory",
+      "description": "blabla",
+      "githubLink": "https://github.com/jennethydyrova/tina-zita.v2",
+      "demoLink": "https://my-inventory.netlify.app/"
     }
   ]
 }

@@ -1,6 +1,8 @@
-import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.scss";
 import MainNavbar from "./components/Navbar";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ResumePage from "./containers/ResumePage";
 import AboutPage from "./containers/AboutPage";
