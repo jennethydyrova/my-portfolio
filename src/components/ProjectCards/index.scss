@@ -1,19 +1,41 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
 
 img {
-  width: 1.5rem;
+  width: 1.2rem;
 }
 
 .card {
   cursor: pointer;
-  margin: 1rem;
+  margin: 1rem 0 2rem 0;
   width: 70%;
+  height: 17rem;
   max-width: 100%;
   padding: 2em 0;
   background: #fff;
-  box-shadow: 0 0 6px 0 rgba(#202024, 0.12);
+  box-shadow: 0 0 6px 0 rgba(#a66851, 0.12);
   transition: all 0.35s ease;
+  .icon {
+    color: #a66851;
+  }
+  .card-title {
+    color: #707173;
+  }
 
+  .projectDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .techInfo {
+    display: flex;
+    flex-direction: row;
+
+    p {
+      margin-right: 0.5rem;
+      font-size: 14px;
+      color: #a66851;
+    }
+  }
   &::before,
   &::after {
     content: "";
@@ -21,7 +43,7 @@ img {
     top: 0;
     left: 0;
     width: 100%;
-    background: #000;
+    background: #a66851;
     height: 4px;
   }
 
@@ -40,6 +62,7 @@ img {
 
   .content {
     width: 18em;
+    height: 20rem;
     max-width: 80%;
   }
 
@@ -49,29 +72,19 @@ img {
     transition: all 0.35s ease;
   }
 
-  h6 {
-    color: #999;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin: 0;
-    letter-spacing: 2px;
-  }
-
   .hoverContent {
     overflow: hidden;
     max-height: 0;
     transform: translateY(1em);
-    transition: all 0.55s ease;
-
+    transition: all 0.5s ease;
     .card-text {
-      margin: 1rem 0 2rem 0;
-      color: #202024;
+      color: #707173;
       line-height: 1.4em;
     }
   }
 
   &:hover {
-    width: 80%;
+    width: 70%;
     box-shadow: 0 10px 20px 0 rgba(#202024, 0.12);
 
     &::before {
@@ -92,7 +105,7 @@ img {
     }
 
     .hoverContent {
-      max-height: 10rem;
+      max-height: 15rem;
       transform: none;
     }
   }

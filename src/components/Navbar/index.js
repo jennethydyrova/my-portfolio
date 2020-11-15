@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import "./index.css";
+import { NavLink } from "react-router-dom";
+import "./index.scss";
 
 const MainNavbar = () => {
   return (
@@ -13,10 +14,8 @@ const MainNavbar = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
-              <Nav.Link href="/about">About</Nav.Link>
-              <Nav.Link href="/projects">Projects</Nav.Link>
-              <Nav.Link href="/resume">Resume</Nav.Link>
-              <Nav.Link href="/contact">Contact</Nav.Link>
+              <NavLink to="/projects">Projects</NavLink>
+              <NavLink to="/resume">Resume</NavLink>
             </Nav>
           </Navbar.Collapse>
         </Container>

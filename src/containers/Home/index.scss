@@ -1,0 +1,44 @@
+@import "../../../variable";
+
+.aboutMe {
+  height: 100%;
+  color: #593325;
+  margin-top: 5rem;
+  // margin-right: 1.5rem;
+  .btn,
+  .btn-primary {
+    background-color: #f2f0ec;
+    border-color: #593325;
+    color: #593325;
+
+    &:focus {
+      border-color: none !important;
+    }
+  }
+  img {
+    width: 21rem;
+    height: 21rem;
+  }
+
+  h1 {
+    margin-top: 5rem;
+    font-family: $secondaryFontFamily;
+    // margin-right: 4rem;
+  }
+  .tech {
+    margin-top: 8rem;
+  }
+  .icons {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .icon {
+    width: 5rem;
+    height: 5rem;
+    color: none;
+  }
+}
+p {
+  margin-top: 1.5rem;
+  font-family: $mainFontFamily;
+}

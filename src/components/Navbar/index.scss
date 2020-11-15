@@ -1,0 +1,42 @@
+@import "../../../variable";
+
+.navbar-nav {
+  margin-left: auto;
+  align-items: baseline;
+
+  a,
+  .navbar-brand {
+    margin-left: 1rem;
+    color: #707173;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    position: relative;
+    font-family: $mainFontFamily;
+
+    &:hover {
+      text-decoration: none;
+      color: #707173;
+    }
+  }
+
+  a::after {
+    content: "";
+    mix-blend-mode: multiply;
+    width: calc(90%);
+    height: 0;
+    position: absolute;
+    bottom: -1px;
+    left: -10px;
+    background: #a66851;
+    transition: all 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  }
+
+  a:hover::after {
+    height: calc(50%);
+    color: #fff;
+    background: #a66851;
+  }
+}
+
+// #F2F0EC

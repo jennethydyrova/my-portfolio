@@ -3,20 +3,25 @@ import MainNavbar from "./components/Navbar";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "font-awesome/css/font-awesome.min.css";
+import "react-vertical-timeline-component/style.min.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ResumePage from "./containers/ResumePage";
-import AboutPage from "./containers/AboutPage";
+import Home from "./containers/Home";
 import ProjectsPage from "./containers/ProjectsPage";
-import ContactPage from "./containers/ContactPage";
+
+import SocialMediIcons from "./components/SocialMediaIcons";
 
 function App() {
   return (
-    <div>
-      <MainNavbar />
-      <Router>
+    <Router>
+      <div style={{ backgroundColor: "#f2f0ec", height: "100%" }}>
+        <MainNavbar />
+        <SocialMediIcons />
+
         <Switch>
-          <Route exact path="/about">
-            <AboutPage />
+          <Route exact path="/">
+            <Home />
           </Route>
           <Route path="/projects">
             <ProjectsPage />
@@ -24,12 +29,9 @@ function App() {
           <Route path="/resume">
             <ResumePage />
           </Route>
-          <Route path="/contact">
-            <ContactPage />
-          </Route>
         </Switch>
-      </Router>
-    </div>
+      </div>
+    </Router>
   );
 }
 

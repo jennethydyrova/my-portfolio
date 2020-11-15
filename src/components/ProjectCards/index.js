@@ -1,28 +1,43 @@
 import React from "react";
 import { Card, Container, Row } from "react-bootstrap";
 import projectData from "./projectData.json";
-import githubSvg from "./images/github.svg";
-import showSvg from "./images/show.svg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faEye } from "@fortawesome/free-regular-svg-icons";
+
 import "./index.scss";
 
 const ProjectCards = () => {
   return (
     <Container>
       <Row className="justify-content-md-center">
-        {projectData.projects.map((el) => (
+        {projectData.projects.map((project) => (
           <Card className="cardStyle">
-            <Card.Img variant="top" />
             <Card.Body>
-              <Card.Title>{el.projectName}</Card.Title>
+              <Card.Title>{project.projectName}</Card.Title>
               <div className="hoverContent">
-                <Card.Text>{el.description}</Card.Text>
+                <Card.Text>{project.description}</Card.Text>
               </div>
-              <Card.Link href={el.githubLink} target="_blank">
-                <img src={githubSvg} alt="GitHub icon" />
-              </Card.Link>
-              <Card.Link href={el.demoLink} target="_blank">
-                <img src={showSvg} alt="Eye icon" />
-              </Card.Link>
+              <div className="projectDetails">
+                <div>
+                  <Card.Link href={project.githubLink} target="_blank">
+                    <FontAwesomeIcon icon={faGithub} className="icon" />
+                  </Card.Link>
+                  <Card.Link href={project.demoLink} target="_blank">
+                    <FontAwesomeIcon icon={faEye} className="icon" />
+                  </Card.Link>
+                  {project.youtubeLink && (
+                    <Card.Link href={project.youtubeLink} target="_blank">
+                      <FontAwesomeIcon icon={faYoutube} className="icon" />
+                    </Card.Link>
+                  )}
+                </div>
+                <div className="techInfo">
+                  {project.techUsed.map((tech) => (
+                    <p>{tech}</p>
+                  ))}
+                </div>
+              </div>
             </Card.Body>
           </Card>
         ))}
