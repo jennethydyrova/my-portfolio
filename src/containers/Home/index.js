@@ -22,11 +22,11 @@ const Home = () => {
   const [open, setOpen] = useState(false);
   return (
     <Container className="aboutMe">
-      <Row md={10} className="justify-content-md-center">
-        <Col md={5}>
+      <Row md={12}>
+        <Col md={5} style={{ marginLeft: "2rem" }}>
           <img src={myPhoto} alt="Jennet Hydyrova" />
         </Col>
-        <Col className="infoAboutMe" md={5}>
+        <Col md={5} style={{ marginRight: "2rem" }}>
           <h1>Hello! My name is Jennet</h1>
           <p>
             I am Junior Front End Web Developer based in Istanbul, who is
@@ -56,7 +56,7 @@ const Home = () => {
       </Row>
 
       <Row className="icons justify-content-md-center" md={12}>
-        <Col>
+        <Col className="techDetails">
           <FontAwesomeIcon
             icon={faReact}
             className="icon"
@@ -64,7 +64,7 @@ const Home = () => {
           />
           <p>React</p>
         </Col>
-        <Col>
+        <Col className="techDetails">
           <FontAwesomeIcon
             icon={faSass}
             className="icon"
@@ -72,7 +72,7 @@ const Home = () => {
           />
           <p>Sass</p>
         </Col>
-        <Col>
+        <Col className="techDetails">
           <FontAwesomeIcon
             icon={faJs}
             className="icon"
@@ -80,7 +80,7 @@ const Home = () => {
           />
           <p>JavaScript</p>
         </Col>
-        <Col>
+        <Col className="techDetails">
           <FontAwesomeIcon
             icon={faBootstrap}
             className="icon"
@@ -88,7 +88,7 @@ const Home = () => {
           />
           <p>Bootstrap</p>
         </Col>
-        <Col>
+        <Col className="techDetails">
           <FontAwesomeIcon
             icon={faCss3}
             className="icon"
@@ -96,7 +96,7 @@ const Home = () => {
           />
           <p>CSS</p>
         </Col>
-        <Col>
+        <Col className="techDetails">
           <FontAwesomeIcon
             icon={faHtml5}
             className="icon"
@@ -105,8 +105,8 @@ const Home = () => {
           <p>HTML</p>
         </Col>
       </Row>
-      <Row>
-        <Col>
+      <Row className="icons justify-content-md-center" md={12}>
+        <Col className="techDetails">
           <img
             src={figmaSvg}
             alt="Figma icon"
@@ -114,7 +114,7 @@ const Home = () => {
           />
           <p>Figma</p>
         </Col>
-        <Col>
+        <Col className="techDetails">
           <img
             src={firebaseSvg}
             alt="Firebase icon"
@@ -122,7 +122,7 @@ const Home = () => {
           />
           <p>Firebase</p>
         </Col>
-        <Col>
+        <Col className="techDetails">
           <img
             src={antDesignSvg}
             alt="Firebase icon"
@@ -130,7 +130,7 @@ const Home = () => {
           />
           <p>Ant Design</p>
         </Col>
-        <Col>
+        <Col className="techDetails">
           <img
             src={posgresSvg}
             alt="PostgreSQL icon"
@@ -138,7 +138,7 @@ const Home = () => {
           />
           <p>PostgreSQL</p>
         </Col>
-        <Col>
+        <Col className="techDetails">
           <img
             src={jestSvg}
             alt="Jest Testing icon"
@@ -146,7 +146,7 @@ const Home = () => {
           />
           <p>Jest Testing</p>
         </Col>
-        <Col>
+        <Col className="techDetails">
           <img
             src={gitSvg}
             alt="Git icon"

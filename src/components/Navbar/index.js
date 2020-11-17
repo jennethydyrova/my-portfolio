@@ -8,7 +8,13 @@ const MainNavbar = () => {
     <Container>
       <Navbar expand="lg" collapseOnSelect>
         <Container>
-          <Navbar.Brand href="/" style={{ fontSize: "16px" }}>
+          <Navbar.Brand
+            href="/"
+            style={{
+              fontSize: "22px",
+              color: "#405952",
+            }}
+          >
             Jennet Hydyrova
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

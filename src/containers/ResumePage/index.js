@@ -12,7 +12,7 @@ const ResumePage = () => {
   return (
     <div className="resumePage">
       <VerticalTimeline>
-        <h2>My journey</h2>
+        <h3>My journey</h3>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "fff", color: "#a66851" }}

@@ -1,32 +1,11 @@
 {
   "projects": [
     {
-      "projectName": "Movie Project",
-      "description": "This website is an online database of actors and movies, which you can sort by genres, rating and popularity. Information about movies and actors was fetched from Movie DB.",
-      "githubLink": "https://github.com/jennethydyrova/movie-project",
-      "demoLink": "https://movie-searcher-web.netlify.app/#",
-      "img": "movieProjectImg",
-      "techUsed": ["Javascript", "Bootstrap"]
-    },
-    {
-      "projectName": "Task Manager",
-      "description": "Task Manager is a website for managing daily routines and tasks. User can add, delete and mark as completed tasks and boards.",
-      "githubLink": "https://github.com/jennethydyrova/board-project",
-      "demoLink": "https://task-manager-web.netlify.app/",
-      "techUsed": ["React", "Ant Design", "Firebase"]
-    },
-    {
-      "projectName": "Madlibs",
-      "description": "blabla",
-      "githubLink": "https://github.com/jennethydyrova/mad-libs",
-      "demoLink": "https://madlibs-js.netlify.app/",
-      "techUsed": ["Javascript", "CSS"]
-    },
-    {
       "projectName": "Safe Place",
       "description": "Safe Place is a final project in Re:Coded Front End Web Development bootcamp that me and other 3 team members built within 4 weeks. This website targets to tackle problem of domestic violence against women in three ways: provide immidiate help, assist women in finding their psychological health and ensure their economic independency.",
       "githubLink": "https://github.com/ReCoded-Org/capstone-istanbul-safe_place",
       "demoLink": "https://safe-place.netlify.app/",
+      "projectImg": "safePlaceProjectImg",
       "techUsed": ["React", "Bootstrap", "Sass"]
     },
     {
@@ -35,7 +14,32 @@
       "githubLink": "https://github.com/jennethydyrova/tina-zita.v2",
       "demoLink": "https://my-inventory.netlify.app/",
       "youtubeLink": "https://youtu.be/6plxCYhagdA",
+      "projectImg": "myInventoryProjectImg",
       "techUsed": ["React", "Ant Design", "Firebase"]
+    },
+    {
+      "projectName": "Movie Project",
+      "description": "This website is an online database of actors and movies, which you can sort by genres, rating and popularity. Information about movies and actors was fetched from Movie DB.",
+      "githubLink": "https://github.com/jennethydyrova/movie-project",
+      "demoLink": "https://movie-searcher-web.netlify.app/#",
+      "projectImg": "movieProjectImg",
+      "techUsed": ["Javascript", "Bootstrap"]
+    },
+    {
+      "projectName": "Task Manager",
+      "description": "Task Manager is a website for managing daily routines and tasks. User can add, delete and mark as completed tasks and boards.",
+      "githubLink": "https://github.com/jennethydyrova/board-project",
+      "demoLink": "https://task-manager-web.netlify.app/",
+      "projectImg": "taskManagerProjectImg",
+      "techUsed": ["React", "Ant Design", "Firebase"]
+    },
+    {
+      "projectName": "Madlibs",
+      "description": "blabla",
+      "githubLink": "https://github.com/jennethydyrova/mad-libs",
+      "demoLink": "https://madlibs-js.netlify.app/",
+      "projectImg": "madLibsProjectImg",
+      "techUsed": ["Javascript", "CSS"]
     }
   ]
 }

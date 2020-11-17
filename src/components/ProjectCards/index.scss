@@ -1,31 +1,42 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
 
-img {
-  width: 1.2rem;
-}
 h3 {
   color: #405952;
+  margin: 2rem;
 }
 .card {
   cursor: pointer;
-  margin: 1rem 0 1.8rem 0;
-  width: 70%;
-  height: 18rem;
+  margin: 2rem 0;
+  width: 90%;
+  height: 40%;
   max-width: 100%;
-  padding: 1.5em 0;
   background: #fff;
   box-shadow: 0 0 6px 0 rgba(#a66851, 0.12);
   transition: all 0.35s ease;
   .icon {
+    width: 1.5rem;
+    height: 1.5rem;
     color: #a66851;
-    margin-top: 1rem;
     &:hover {
       color: #405952;
     }
   }
 
+  .card-body {
+    padding: 1rem 0 0 0;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
   .card-title {
     color: #a66851;
+  }
+
+  .projectInfo {
+    padding: 3rem;
   }
 
   .projectDetails {
@@ -33,6 +44,7 @@ h3 {
     flex-direction: column;
     justify-content: space-between;
   }
+
   .techInfo {
     display: flex;
     flex-direction: row;
@@ -43,6 +55,7 @@ h3 {
       color: #a66851;
     }
   }
+
   &::before,
   &::after {
     content: "";
@@ -68,31 +81,25 @@ h3 {
   }
 
   .content {
-    width: 18em;
-    height: 20rem;
+    // width: 18em;
+    // height: 20rem;
     max-width: 80%;
   }
 
-  .logo {
-    margin: 0 0 1em;
-    width: 10.625em;
-    transition: all 0.35s ease;
-  }
-
-  .hoverContent {
-    overflow: hidden;
-    max-height: 0;
-    transform: translateY(1em);
-    transition: all 0.5s ease;
-    .card-text {
-      color: #707173;
-      line-height: 1.4em;
-    }
-  }
+  // .hoverContent {
+  //   overflow: hidden;
+  //   max-height: 0;
+  //   transform: translateY(1em);
+  //   transition: all 0.5s ease;
+  //   .card-text {
+  //     color: #707173;
+  //     line-height: 1.4em;
+  //   }
+  // }
 
   &:hover {
-    width: 70%;
-    box-shadow: 0 10px 20px 0 rgba(#202024, 0.12);
+    width: 100%;
+    box-shadow: 0 10px 30px 0 rgba(#202024, 0.12);
 
     &::before {
       width: 100%;
