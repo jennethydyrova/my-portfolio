@@ -51,7 +51,7 @@ const Home = () => {
       </Row>
       <Row className="justify-content-md-center tech">
         <Col>
-          <h3>Knowledge of:</h3>
+          <h2>Knowledge of:</h2>
         </Col>
       </Row>
 

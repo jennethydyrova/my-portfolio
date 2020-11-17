@@ -2,7 +2,7 @@
   "projects": [
     {
       "projectName": "Safe Place",
-      "description": "Safe Place is a final project in Re:Coded Front End Web Development bootcamp that me and other 3 team members built within 4 weeks. This website targets to tackle problem of domestic violence against women in three ways: provide immidiate help, assist women in finding their psychological health and ensure their economic independency.",
+      "description": "Safe Place is a final project in Re:Coded Front End Web Development bootcamp that me and other 3 team members built within 4 weeks. This website targets to tackle the problem of domestic violence against women in three ways: provide immidiate help, assist women in reaching psychological help and help them to become financially independent.",
       "githubLink": "https://github.com/ReCoded-Org/capstone-istanbul-safe_place",
       "demoLink": "https://safe-place.netlify.app/",
       "projectImg": "safePlaceProjectImg",
@@ -35,7 +35,7 @@
     },
     {
       "projectName": "Madlibs",
-      "description": "blabla",
+      "description": "Mad Libs is a phrasal template word game which consists of one player prompting others for a list of words to substitute for blanks in a story before reading aloud.",
       "githubLink": "https://github.com/jennethydyrova/mad-libs",
       "demoLink": "https://madlibs-js.netlify.app/",
       "projectImg": "madLibsProjectImg",

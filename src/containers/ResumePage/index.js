@@ -12,9 +12,9 @@ const ResumePage = () => {
   return (
     <div className="resumePage">
       <VerticalTimeline>
-        <h3>My journey</h3>
+        <h2>My journey</h2>
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
+          className="vertical-timeline-element--work resumeCard "
           contentStyle={{ background: "fff", color: "#a66851" }}
           contentArrowStyle={{ borderRight: "7px solid  fff" }}
           date="July - November 2020"
@@ -42,7 +42,7 @@ const ResumePage = () => {
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
+          className="vertical-timeline-element--work resumeCard"
           contentStyle={{ background: "fff", color: "#a66851" }}
           contentArrowStyle={{ borderRight: "7px solid  fff" }}
           date="2019 - 2020"
@@ -59,7 +59,7 @@ const ResumePage = () => {
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
+          className="vertical-timeline-element--work resumeCard"
           contentStyle={{ background: "fff", color: "#a66851" }}
           contentArrowStyle={{ borderRight: "7px solid  fff" }}
           date="2014-2018"
@@ -79,7 +79,7 @@ const ResumePage = () => {
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
+          className="vertical-timeline-element--work resumeCard"
           contentStyle={{ background: "fff", color: "#a66851" }}
           contentArrowStyle={{ borderRight: "7px solid  fff" }}
           date="July - August 2018"
@@ -96,7 +96,7 @@ const ResumePage = () => {
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
+          className="vertical-timeline-element--work resumeCard"
           contentStyle={{ background: "fff", color: "#a66851" }}
           contentArrowStyle={{ borderRight: "7px solid  fff" }}
           date="2016-2018"
@@ -113,7 +113,7 @@ const ResumePage = () => {
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
+          className="vertical-timeline-element--work resumeCard"
           contentStyle={{ background: "fff", color: "#a66851" }}
           contentArrowStyle={{ borderRight: "7px solid  fff" }}
           date="June - August 2017"
@@ -133,7 +133,7 @@ const ResumePage = () => {
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
+          className="vertical-timeline-element--work resumeCard"
           contentStyle={{ background: "fff", color: "#a66851" }}
           contentArrowStyle={{ borderRight: "7px solid  fff" }}
           date="2014-2018"

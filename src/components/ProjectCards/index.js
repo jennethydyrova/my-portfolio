@@ -23,7 +23,7 @@ const ProjectCards = () => {
   return (
     <Container>
       <Row>
-        <h3>Things I worked on</h3>
+        <h2>Things I worked on</h2>
       </Row>
 
       {projectData.projects.map((project) => (
