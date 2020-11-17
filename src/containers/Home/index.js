@@ -24,7 +24,7 @@ const Home = () => {
     <Container className="aboutMe">
       <Row md={10} className="justify-content-md-center">
         <Col md={5}>
-          <img src={myPhoto} alt="Photo of me" />
+          <img src={myPhoto} alt="Jennet Hydyrova" />
         </Col>
         <Col className="infoAboutMe" md={5}>
           <h1>Hello! My name is Jennet</h1>

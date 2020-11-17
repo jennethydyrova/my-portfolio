@@ -30,7 +30,11 @@ const ResumePage = () => {
           </h3>
           <h4 className="vertical-timeline-element-subtitle">Istanbul, TR</h4>
           <p>
-            <a href="https://www.re-coded.com/" target="_blank">
+            <a
+              href="https://www.re-coded.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Re:Coded{" "}
             </a>
             Web Development Bootcamp
@@ -56,7 +60,6 @@ const ResumePage = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2010 - 2011"
           contentStyle={{ background: "fff", color: "#a66851" }}
           contentArrowStyle={{ borderRight: "7px solid  fff" }}
           date="2014-2018"
@@ -94,7 +97,6 @@ const ResumePage = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2010 - 2011"
           contentStyle={{ background: "fff", color: "#a66851" }}
           contentArrowStyle={{ borderRight: "7px solid  fff" }}
           date="2016-2018"
@@ -112,7 +114,6 @@ const ResumePage = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2010 - 2011"
           contentStyle={{ background: "fff", color: "#a66851" }}
           contentArrowStyle={{ borderRight: "7px solid  fff" }}
           date="June - August 2017"
@@ -133,7 +134,6 @@ const ResumePage = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2010 - 2011"
           contentStyle={{ background: "fff", color: "#a66851" }}
           contentArrowStyle={{ borderRight: "7px solid  fff" }}
           date="2014-2018"

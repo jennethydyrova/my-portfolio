@@ -8,7 +8,11 @@ const SocialMediaIcons = () => {
     <div>
       <div className="socialIcons">
         <div className="icon">
-          <a href="https://github.com/jennethydyrova" target="_blank">
+          <a
+            href="https://github.com/jennethydyrova"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FontAwesomeIcon icon={faGithub} className="mediaIcon" />
           </a>
         </div>
@@ -16,6 +20,7 @@ const SocialMediaIcons = () => {
           <a
             href="https://www.linkedin.com/in/jennet-hydyrova-a60685122/"
             target="_blank"
+            rel="noreferrer"
           >
             <FontAwesomeIcon icon={faLinkedin} className="mediaIcon" />
           </a>
