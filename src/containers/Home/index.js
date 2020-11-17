@@ -29,8 +29,8 @@ const Home = () => {
         <Col className="infoAboutMe" md={5}>
           <h1>Hello! My name is Jennet</h1>
           <p>
-            I am Junior Front end Web Developer based in Istanbul, who is
-            passionate about building and designing websites
+            I am Junior Front End Web Developer based in Istanbul, who is
+            passionate about building user-friendly websites.
           </p>
           <Button
             onClick={() => setOpen(!open)}

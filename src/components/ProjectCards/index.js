@@ -11,6 +11,9 @@ const ProjectCards = () => {
   return (
     <Container>
       <Row className="justify-content-md-center">
+        <h3>Things I worked on</h3>
+      </Row>
+      <Row className="justify-content-md-center">
         {projectData.projects.map((project) => (
           <Card className="cardStyle">
             <Card.Body>

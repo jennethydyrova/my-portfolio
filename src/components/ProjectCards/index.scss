@@ -3,22 +3,29 @@
 img {
   width: 1.2rem;
 }
-
+h3 {
+  color: #405952;
+}
 .card {
   cursor: pointer;
-  margin: 1rem 0 2rem 0;
+  margin: 1rem 0 1.8rem 0;
   width: 70%;
-  height: 17rem;
+  height: 18rem;
   max-width: 100%;
-  padding: 2em 0;
+  padding: 1.5em 0;
   background: #fff;
   box-shadow: 0 0 6px 0 rgba(#a66851, 0.12);
   transition: all 0.35s ease;
   .icon {
     color: #a66851;
+    margin-top: 1rem;
+    &:hover {
+      color: #405952;
+    }
   }
+
   .card-title {
-    color: #707173;
+    color: #a66851;
   }
 
   .projectDetails {
@@ -43,7 +50,7 @@ img {
     top: 0;
     left: 0;
     width: 100%;
-    background: #a66851;
+    background: #405952;
     height: 4px;
   }
 
@@ -100,12 +107,12 @@ img {
       transition: width 0 ease;
     }
 
-    .logo {
-      margin-bottom: 0.5em;
-    }
+    // .logo {
+    //   margin-bottom: 0.5em;
+    // }
 
     .hoverContent {
-      max-height: 15rem;
+      max-height: 14rem;
       transform: none;
     }
   }
