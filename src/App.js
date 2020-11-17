@@ -9,7 +9,6 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ResumePage from "./containers/ResumePage";
 import Home from "./containers/Home";
 import ProjectsPage from "./containers/ProjectsPage";
-
 import SocialMediIcons from "./components/SocialMediaIcons";
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
       <div style={{ backgroundColor: "#f2f0ec", height: "100%" }}>
         <MainNavbar />
         <SocialMediIcons />
-
         <Switch>
           <Route exact path="/">
             <Home />

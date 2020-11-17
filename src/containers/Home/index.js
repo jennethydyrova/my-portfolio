@@ -41,10 +41,8 @@ const Home = () => {
           </Button>
           <Collapse in={open}>
             <div id="example-collapse-text">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life
-              accusamus terry richardson ad squid. Nihil anim keffiyeh
-              helvetica, craft beer labore wes anderson cred nesciunt sapiente
-              ea proident.
+              Besides Front End, I have a keen interest in backend technologies.
+              I have attended extra curriculum backend course in bootcamp.
             </div>
           </Collapse>
         </Col>
