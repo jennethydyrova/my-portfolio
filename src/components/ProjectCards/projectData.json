@@ -6,7 +6,7 @@
       "githubLink": "https://github.com/ReCoded-Org/capstone-istanbul-safe_place",
       "demoLink": "https://safe-place.netlify.app/",
       "projectImg": "safePlaceProjectImg",
-      "techUsed": ["React", "Bootstrap", "Sass"]
+      "techUsed": ["React", "React Bootstrap", "Sass", "i18next", "Figma"]
     },
     {
       "projectName": "M.Y-Inventory",
