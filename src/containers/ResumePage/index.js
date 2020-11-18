@@ -73,8 +73,15 @@ const ResumePage = () => {
           <h3 className="vertical-timeline-element-title">HR Coordinator</h3>
           <h4 className="vertical-timeline-element-subtitle">Istanbul, TR</h4>
           <p>
-            Volunteer work in non-profit organization Istanbul&I as HR
-            Coordinator
+            Volunteer work in non-profit organization{" "}
+            <a
+              href="https://istanbulandi.org.tr/team/jennet/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Istanbul&I{" "}
+            </a>
+            as HR Coordinator
           </p>
         </VerticalTimelineElement>
 
