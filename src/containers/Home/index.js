@@ -32,26 +32,11 @@ const Home = () => {
             I am Junior Front End Web Developer based in Istanbul, who is
             passionate about building user-friendly websites.
           </p>
-          <Button
-            onClick={() => setOpen(!open)}
-            aria-controls="example-collapse-text"
-            aria-expanded={open}
-          >
-            More about me
-          </Button>
-          <Collapse in={open}>
-            <div id="example-collapse-text">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life
-              accusamus terry richardson ad squid. Nihil anim keffiyeh
-              helvetica, craft beer labore wes anderson cred nesciunt sapiente
-              ea proident.
-            </div>
-          </Collapse>
         </Col>
       </Row>
       <Row className="justify-content-md-center tech">
         <Col>
-          <h2>Knowledge of:</h2>
+          <h2>Technologies</h2>
         </Col>
       </Row>
 

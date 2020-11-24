@@ -12,10 +12,11 @@ const MainNavbar = () => {
             href="/"
             style={{
               fontSize: "22px",
+              fontWeight: "450",
               color: "#405952",
             }}
           >
-            Jennet Hydyrova
+            Home
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
