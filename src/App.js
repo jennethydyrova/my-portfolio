@@ -1,4 +1,5 @@
 import "./App.scss";
+
 import MainNavbar from "./components/Navbar";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -14,7 +15,7 @@ import SocialMediIcons from "./components/SocialMediaIcons";
 function App() {
   return (
     <Router>
-      <div style={{ backgroundColor: "#f2f0ec", height: "100%" }}>
+      <div style={{ backgroundColor: "#f2f0ec", height: "auto" }}>
         <MainNavbar />
         <SocialMediIcons />
         <Switch>

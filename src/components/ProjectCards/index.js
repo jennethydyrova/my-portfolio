@@ -9,10 +9,11 @@ import taskManagerProject from "./images/taskManagerProject.png";
 import madLibsProject from "./images/madLibsProject.png";
 import safePlaceProject from "./images/safePlaceProject.png";
 import myInventoryProject from "./images/myInventoryProject.png";
-
+import { useHistory } from "react-router-dom";
 import "./index.scss";
 
 const ProjectCards = () => {
+  const history = useHistory();
   const projectImgMap = {
     movieProjectImg: movieProject,
     taskManagerProjectImg: taskManagerProject,
@@ -20,18 +21,22 @@ const ProjectCards = () => {
     safePlaceProjectImg: safePlaceProject,
     myInventoryProjectImg: myInventoryProject,
   };
+
   return (
     <Container>
       <Row>
-        <h2>Things I worked on</h2>
+        <h2>Projects</h2>
       </Row>
 
       {projectData.projects.map((project) => (
         <Row className="justify-content-md-center">
-          <Card className="cardStyle">
+          <Card
+            className="cardStyle"
+            onClick={() => window.open(project.demoLink, "_blank")}
+          >
             <Card.Body>
               <Row>
-                <Col md={6} className="projectInfo">
+                <Col lg={6} md={12} sm={12} className="projectInfo">
                   <Card.Title>{project.projectName}</Card.Title>
                   <Card.Text>{project.description}</Card.Text>
 
@@ -46,18 +51,19 @@ const ProjectCards = () => {
                       {project.youtubeLink && (
                         <Card.Link href={project.youtubeLink} target="_blank">
                           <FontAwesomeIcon icon={faYoutube} className="icon" />
+                          <span class="tooltiptext">Tooltip text</span>
                         </Card.Link>
                       )}
                     </div>
-                    <div className="techInfo">
+                    <Row className="techInfo">
                       {project.techUsed.map((tech) => (
                         <p>{tech}</p>
                       ))}
-                    </div>
+                    </Row>
                   </div>
                 </Col>
 
-                <Col md={6}>
+                <Col lg={6} md={12} sm={12}>
                   <img
                     src={projectImgMap[project.projectImg]}
                     alt="Project cover"

@@ -2,7 +2,7 @@
 .container {
   h2 {
     color: #405952;
-    margin: 2rem;
+    margin: 2rem 0 0 2rem;
   }
   .card {
     cursor: pointer;
@@ -46,11 +46,8 @@
     }
 
     .techInfo {
-      display: flex;
-      flex-direction: row;
-
       p {
-        margin-right: 0.5rem;
+        padding-left: 0.5rem;
         font-size: 14px;
         color: #a66851;
       }

@@ -12,7 +12,7 @@ const ResumePage = () => {
   return (
     <div className="resumePage">
       <VerticalTimeline>
-        <h2>My journey</h2>
+        <h2>My Journey</h2>
         <VerticalTimelineElement
           className="vertical-timeline-element--work resumeCard "
           contentStyle={{ background: "fff", color: "#a66851" }}
@@ -28,17 +28,9 @@ const ResumePage = () => {
           <h3 className="vertical-timeline-element-title">
             Junior Web Developer
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">Istanbul, TR</h4>
-          <p>
-            <a
-              href="https://www.re-coded.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Re:Coded{" "}
-            </a>
-            Web Development Bootcamp
-          </p>
+          <h4 className="vertical-timeline-element-subtitle"> Re:Coded</h4>
+          <h6>Istanbul, TR</h6>
+          <p>Web Development Bootcamp</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -54,8 +46,11 @@ const ResumePage = () => {
           icon={<FontAwesomeIcon icon={faBookmark} />}
         >
           <h3 className="vertical-timeline-element-title">Student</h3>
-          <h4 className="vertical-timeline-element-subtitle">Istanbul, TR</h4>
-          <p>MA International Relations, Bilgi University</p>
+          <h4 className="vertical-timeline-element-subtitle">
+            Bilgi University
+          </h4>
+          <h6>Istanbul, TR</h6>
+          <p>MA International Relations</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -71,17 +66,11 @@ const ResumePage = () => {
           icon={<FontAwesomeIcon icon={faFolder} />}
         >
           <h3 className="vertical-timeline-element-title">HR Coordinator</h3>
-          <h4 className="vertical-timeline-element-subtitle">Istanbul, TR</h4>
+          <h4 className="vertical-timeline-element-subtitle"> Istanbul&I</h4>
+          <h6>Istanbul, TR</h6>
           <p>
-            Volunteer work in non-profit organization{" "}
-            <a
-              href="https://istanbulandi.org.tr/team/jennet/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Istanbul&I{" "}
-            </a>
-            as HR Coordinator
+            Volunteer work in non-profit organization Istanbul&I as HR
+            Coordinator
           </p>
         </VerticalTimelineElement>
 
@@ -98,8 +87,11 @@ const ResumePage = () => {
           icon={<FontAwesomeIcon icon={faBookmark} />}
         >
           <h3 className="vertical-timeline-element-title">Student</h3>
-          <h4 className="vertical-timeline-element-subtitle">London, UK</h4>
-          <p>Business Strategy in International Markets, LSE Summer school</p>
+          <h4 className="vertical-timeline-element-subtitle">
+            LSE Summer school
+          </h4>
+          <h6>London, UK</h6>
+          <p>Business Strategy in International Markets</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -115,8 +107,11 @@ const ResumePage = () => {
           icon={<FontAwesomeIcon icon={faBookmark} />}
         >
           <h3 className="vertical-timeline-element-title">Student</h3>
-          <h4 className="vertical-timeline-element-subtitle">Istanbul, TR</h4>
-          <p>BA Business Administration, Yeditepe University</p>
+          <h4 className="vertical-timeline-element-subtitle">
+            Yeditepe University
+          </h4>
+          <h6>Istanbul, TR</h6>
+          <p>BA Business Administration </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -132,11 +127,32 @@ const ResumePage = () => {
           icon={<FontAwesomeIcon icon={faFolder} />}
         >
           <h3 className="vertical-timeline-element-title">Intern</h3>
-          <h4 className="vertical-timeline-element-subtitle">Istanbul, TR</h4>
+          <h4 className="vertical-timeline-element-subtitle">
+            Merkur Group Company
+          </h4>
+          <h6>Istanbul, TR</h6>
           <p>
-            Merkur Group Company, Sabiha Gokcen Airport’s branch. Summer Intern
-            in Operations Department{" "}
+            Sabiha Gokcen Airport’s branch. Summer Intern in Operations
+            Department{" "}
           </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work resumeCard"
+          contentStyle={{ background: "fff", color: "#a66851" }}
+          contentArrowStyle={{ borderRight: "7px solid  fff" }}
+          date="June - August 2016"
+          iconStyle={{
+            background: "#405952",
+            color: "#fff",
+            paddingLeft: "5px",
+          }}
+          icon={<FontAwesomeIcon icon={faFolder} />}
+        >
+          <h3 className="vertical-timeline-element-title">Intern</h3>
+          <h4 className="vertical-timeline-element-subtitle">Ibrakom</h4>
+          <h6>Ashgabat, Turkmenistan</h6>
+          <p>Summer Intern in Operations Department </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -152,11 +168,11 @@ const ResumePage = () => {
           icon={<FontAwesomeIcon icon={faBookmark} />}
         >
           <h3 className="vertical-timeline-element-title">Student</h3>
-          <h4 className="vertical-timeline-element-subtitle">Istanbul, TR</h4>
-          <p>
-            BA International Logististics and Transportation, Yeditepe
-            University
-          </p>
+          <h4 className="vertical-timeline-element-subtitle">
+            Yeditepe University
+          </h4>
+          <h6>Istanbul, TR</h6>
+          <p>BA International Logististics and Transportation</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>

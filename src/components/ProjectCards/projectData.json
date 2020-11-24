@@ -18,20 +18,20 @@
       "techUsed": ["React", "Ant Design", "Firebase"]
     },
     {
-      "projectName": "Movie Project",
-      "description": "This website is an online database of actors and movies, which you can sort by genres, rating and popularity. Information about movies and actors was fetched from Movie DB.",
-      "githubLink": "https://github.com/jennethydyrova/movie-project",
-      "demoLink": "https://movie-searcher-web.netlify.app/#",
-      "projectImg": "movieProjectImg",
-      "techUsed": ["Javascript", "Bootstrap"]
-    },
-    {
       "projectName": "Task Manager",
       "description": "Task Manager is a website for managing daily routines and tasks. User can add, delete and mark as completed tasks and boards.",
       "githubLink": "https://github.com/jennethydyrova/board-project",
       "demoLink": "https://task-manager-web.netlify.app/",
       "projectImg": "taskManagerProjectImg",
       "techUsed": ["React", "Ant Design", "Firebase"]
+    },
+    {
+      "projectName": "Movie Project",
+      "description": "This website is an online database of actors and movies, which you can sort by genres, rating and popularity. Information about movies and actors was fetched from Movie DB.",
+      "githubLink": "https://github.com/jennethydyrova/movie-project",
+      "demoLink": "https://movie-searcher-web.netlify.app/#",
+      "projectImg": "movieProjectImg",
+      "techUsed": ["Javascript", "Bootstrap"]
     },
     {
       "projectName": "Madlibs",
