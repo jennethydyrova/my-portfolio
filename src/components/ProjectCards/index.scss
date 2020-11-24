@@ -5,7 +5,6 @@
     margin: 2rem 0 0 2rem;
   }
   .card {
-    cursor: pointer;
     margin: 2rem 0;
     width: 90%;
     height: 40%;
@@ -17,6 +16,7 @@
       width: 1.5rem;
       height: 1.5rem;
       color: #a66851;
+
       &:hover {
         color: #405952;
       }
@@ -29,6 +29,7 @@
     img {
       width: 100%;
       height: 100%;
+      cursor: pointer;
     }
 
     .card-title {
@@ -47,7 +48,7 @@
 
     .techInfo {
       p {
-        padding-left: 0.5rem;
+        padding: 0 0.5rem 0 1rem;
         font-size: 14px;
         color: #a66851;
       }
@@ -88,7 +89,7 @@
       &::before {
         width: 100%;
         opacity: 1;
-        transition: opacity 0.5s ease, width 0.5s ease;
+        transition: opacity 0.6s ease, width 0.5s ease;
         transition-delay: 0;
       }
 

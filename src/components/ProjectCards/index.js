@@ -30,10 +30,7 @@ const ProjectCards = () => {
 
       {projectData.projects.map((project) => (
         <Row className="justify-content-md-center">
-          <Card
-            className="cardStyle"
-            onClick={() => window.open(project.demoLink, "_blank")}
-          >
+          <Card className="cardStyle">
             <Card.Body>
               <Row>
                 <Col lg={6} md={12} sm={12} className="projectInfo">
@@ -51,7 +48,6 @@ const ProjectCards = () => {
                       {project.youtubeLink && (
                         <Card.Link href={project.youtubeLink} target="_blank">
                           <FontAwesomeIcon icon={faYoutube} className="icon" />
-                          <span class="tooltiptext">Tooltip text</span>
                         </Card.Link>
                       )}
                     </div>
@@ -67,6 +63,7 @@ const ProjectCards = () => {
                   <img
                     src={projectImgMap[project.projectImg]}
                     alt="Project cover"
+                    onClick={() => window.open(project.demoLink, "_blank")}
                   />
                 </Col>
               </Row>
