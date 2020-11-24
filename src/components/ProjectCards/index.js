@@ -23,7 +23,7 @@ const ProjectCards = () => {
   };
 
   return (
-    <Container>
+    <Container className="projects">
       <Row>
         <h2>Projects</h2>
       </Row>

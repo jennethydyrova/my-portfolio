@@ -1,0 +1,36 @@
+@import "../../../variable";
+
+.technologies {
+  padding-bottom: 7rem;
+  background-color: #6b8f71;
+
+  .techDetails {
+    text-align: center;
+  }
+  .tech {
+    margin-top: 5rem;
+  }
+  .icons {
+    padding: 2rem;
+  }
+  .icon {
+    width: 5rem;
+    height: 5rem;
+    color: none;
+    margin-left: 3.3rem;
+    padding-top: 0.5rem;
+  }
+
+  img {
+    margin-left: 3rem;
+    padding-top: 0.5rem;
+  }
+
+  h2 {
+    font-family: $mainFontFamily;
+    color: #f2f0ec;
+    text-align: center;
+    padding: 5rem 0;
+    font-weight: bold;
+  }
+}
