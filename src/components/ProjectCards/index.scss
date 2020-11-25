@@ -1,6 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
 @import "../../style/variable";
 
+.greenyPro {
+  .greenyLine {
+    position: absolute;
+    margin-left: -15rem;
+    top: 7rem;
+  }
+}
+
 .projects {
   h2 {
     font-family: $mainFontFamily;

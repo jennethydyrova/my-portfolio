@@ -3,3 +3,7 @@ $mainFontFamily: "Roboto", sans-serif;
 
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 $secondaryFontFamily: "Caveat", cursive;
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";

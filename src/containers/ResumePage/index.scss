@@ -1,5 +1,14 @@
 @import "../../style/variable";
 
+.greenyRes {
+  position: sticky;
+  img.greenyLine {
+    position: absolute;
+    margin-left: -4rem;
+    top: 26rem;
+  }
+}
+
 .resumePage {
   height: 100%;
 
@@ -13,5 +22,12 @@
 
   h3 {
     color: #8c5e58;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .greeny {
+    display: none;
+    overflow: hidden;
   }
 }

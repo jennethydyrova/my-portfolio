@@ -1,14 +1,20 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myPhoto from "./images/myPhoto.jpeg";
+import greenyLeaf from "./images/greenyLeaf.png";
+import greenyLine from "./images/greenyLine.png";
 import "./index.scss";
 
 const HomeMainInfo = () => {
   return (
-    <Container className="aboutMe">
-      <Row className="imageTextAboutMe">
-        <Col className="imageTextAboutMe">
-          <div className="infoAboutMe">
+    <div>
+      <div className="greeny">
+        <img src={greenyLeaf} alt="Greeny leaf" className="greenyLeaf" />
+        <img src={greenyLine} alt="Greeny line" className="greenyLine" />
+      </div>
+      <Container className="aboutMe">
+        <div className="imageTextAboutMe justify-content-center">
+          <div className="aboutMeInfo">
             <h1>Hello! My name is Jennet</h1>
             <p>
               I am Junior Frontend Web Developer based in Istanbul, who is
@@ -21,9 +27,9 @@ const HomeMainInfo = () => {
           <div>
             <img src={myPhoto} alt="Jennet Hydyrova" />
           </div>
-        </Col>
-      </Row>
-    </Container>
+        </div>
+      </Container>
+    </div>
   );
 };
 

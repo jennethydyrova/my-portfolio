@@ -1,25 +1,37 @@
 @import "../../style/variable";
 
+.greeny {
+  position: sticky;
+}
+
+img.greenyLeaf {
+  width: 10rem;
+  position: absolute;
+  bottom: 2rem;
+  right: 5rem;
+  margin-right: -9rem;
+}
+
+img.greenyLine {
+  position: absolute;
+  margin-left: -6rem;
+  top: 12rem;
+}
+
 .aboutMe {
   height: 100%;
   color: #483d3f;
   // margin-bottom: 2rem;
 
   .imageTextAboutMe {
-    // padding: 6rem 0;
-    // margin: 3rem 0;
-    //  height: 50vh;
+    margin-top: 6rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    // align-content: center;
-    // align-items: center;
   }
-
-  .infoAboutMe {
-    // width: 50%;
-    // margin: 2rem ;
+  .aboutMeInfo {
+    width: 40rem;
   }
 
   img {
@@ -35,5 +47,27 @@
   p {
     margin-top: 1.5rem;
     font-family: $mainFontFamily;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .infoAboutMe {
+    width: 10rem;
+  }
+  // .greeny {
+  //   overflow: hidden;
+  // }
+
+  .greenyLeaf {
+    display: none;
+    overflow: hidden;
+    // overflow: hidden;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .greeny {
+    display: none;
+    overflow: hidden;
   }
 }
