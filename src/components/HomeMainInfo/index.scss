@@ -2,24 +2,15 @@
 
 .aboutMe {
   height: 100%;
-  color: #593325;
-  padding: 4rem;
+  color: #483d3f;
 
-  // margin-right: 1.5rem;
-  .btn,
-  .btn-primary {
-    background-color: #f2f0ec;
-    border-color: #593325;
-    color: #593325;
-
-    &:focus {
-      border-color: none !important;
-    }
+  .imageTextAboutMe {
+    padding: 6rem 0;
   }
 
   img {
-    width: 25rem;
-    height: 25rem;
+    width: 20rem;
+    height: 20rem;
     border-radius: 0.5rem;
   }
 

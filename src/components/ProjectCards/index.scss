@@ -1,11 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+@import "../../../variable";
+
 .projects {
   h2 {
-    color: #405952;
-    margin: 2rem 0 0 2rem;
+    font-family: $mainFontFamily;
+    color: #483d3f;
+    text-align: center;
+    padding-top: 5rem;
+    font-weight: 550;
+  }
+  .projectCards {
+    padding: 3rem 0;
   }
   .card {
-    margin: 2rem 0;
+    margin-bottom: 1rem;
     width: 90%;
     height: 40%;
     max-width: 100%;
@@ -18,7 +26,7 @@
       color: #a66851;
 
       &:hover {
-        color: #405952;
+        color: #db7f67;
       }
     }
 
@@ -55,7 +63,7 @@
       top: 0;
       left: 0;
       width: 100%;
-      background: #405952;
+      background: #db7f67;
       height: 4px;
     }
 

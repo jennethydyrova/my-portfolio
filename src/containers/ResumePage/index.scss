@@ -1,13 +1,16 @@
+@import "../../../variable";
+
 .resumePage {
   height: 100%;
+
   h2 {
-    color: #405952;
-    margin-left: 4rem;
+    font-family: $mainFontFamily;
+    color: #483d3f;
+    text-align: center;
+    padding: 5rem 0;
+    font-weight: 550;
   }
-  a {
-    color: #a66851;
-    text-decoration: underline;
-  }
+
   h3 {
     color: #405952;
   }

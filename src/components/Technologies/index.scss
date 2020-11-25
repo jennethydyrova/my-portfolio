@@ -1,36 +1,41 @@
 @import "../../../variable";
 
 .technologies {
-  padding-bottom: 7rem;
-  background-color: #6b8f71;
+  padding-bottom: 8rem;
+  background-color: #eed2cc;
 
+  .card {
+    height: 10rem;
+  }
   .techDetails {
     text-align: center;
   }
   .tech {
     margin-top: 5rem;
   }
-  .icons {
-    padding: 2rem;
-  }
+
   .icon {
     width: 5rem;
     height: 5rem;
     color: none;
-    margin-left: 3.3rem;
+
     padding-top: 0.5rem;
+    margin: 1.5rem 0 0 3.3rem;
   }
 
   img {
-    margin-left: 3rem;
+    margin: 1.5rem 0 0 3.2rem;
     padding-top: 0.5rem;
   }
 
   h2 {
     font-family: $mainFontFamily;
-    color: #f2f0ec;
+    color: #483d3f;
     text-align: center;
     padding: 5rem 0;
-    font-weight: bold;
+    font-weight: 550;
+  }
+  p {
+    padding: 1rem 0;
   }
 }

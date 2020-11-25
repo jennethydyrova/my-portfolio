@@ -11,8 +11,8 @@ import "./index.scss";
 const ResumePage = () => {
   return (
     <div className="resumePage">
+      <h2>My Journey</h2>
       <VerticalTimeline>
-        <h2>My Journey</h2>
         <VerticalTimelineElement
           className="vertical-timeline-element--work resumeCard "
           contentStyle={{ background: "fff", color: "#a66851" }}

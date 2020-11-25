@@ -15,8 +15,11 @@ import SocialMediIcons from "./components/SocialMediaIcons";
 function App() {
   return (
     <Router>
-      <div style={{ backgroundColor: "#f2f0ec", height: "auto" }}>
-        <MainNavbar />
+      <div style={{ backgroundColor: "#FBF7F4", height: "auto" }}>
+        <div style={{ backgroundColor: "#8c5e58" }}>
+          <MainNavbar />
+        </div>
+
         <SocialMediIcons />
         <Switch>
           <Route exact path="/">

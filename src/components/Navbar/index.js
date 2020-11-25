@@ -13,7 +13,7 @@ const MainNavbar = () => {
             style={{
               fontSize: "22px",
               fontWeight: "450",
-              color: "#405952",
+              color: "#FBF7F4",
             }}
           >
             Home

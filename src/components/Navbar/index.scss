@@ -7,7 +7,7 @@
   a,
   .navbar-brand {
     margin-left: 3rem;
-    color: #707173;
+    color: #fbf7f4;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 0.15em;
@@ -16,7 +16,7 @@
 
     &:hover {
       text-decoration: none;
-      color: #707173;
+      color: #fbf7f4;
     }
   }
 
@@ -28,13 +28,13 @@
     position: absolute;
     bottom: -1px;
     left: -10px;
-    background: #a66851;
+    background: #e4572e;
     transition: all 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
   }
 
   a:hover::after {
     height: calc(50%);
     color: #fff;
-    background: #a66851;
+    background: #e4572e;
   }
 }

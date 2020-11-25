@@ -6,11 +6,11 @@ import "./index.scss";
 const HomeMainInfo = () => {
   return (
     <Container className="aboutMe">
-      <Row md={12}>
-        <Col md={5} style={{ marginLeft: "2rem" }}>
+      <Row md={12} className="imageTextAboutMe">
+        <Col md={6}>
           <img src={myPhoto} alt="Jennet Hydyrova" />
         </Col>
-        <Col md={5} style={{ marginRight: "2rem" }}>
+        <Col md={6}>
           <h1>Hello! My name is Jennet</h1>
           <p>
             I am Junior Front End Web Developer based in Istanbul, who is

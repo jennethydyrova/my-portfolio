@@ -8,24 +8,24 @@
   z-index: 1;
 
   .icon {
-    color: #73523f;
+    color: #db7f67;
     list-style-type: none;
     text-align: center;
     width: 50px;
     height: 50px;
     line-height: 50px;
     padding: 1%;
-    border: 1px solid #73523f;
+    border: 1px solid #db7f67;
     cursor: pointer;
     margin-left: 10px;
     margin-bottom: 20px;
     transition: ease 0.3s;
     .mediaIcon {
-      color: #73523f;
+      color: #db7f67;
     }
     &:hover {
-      color: #593325;
-      border: 1px solid #593325;
+      color: #e4572e;
+      border: 1px solid #e4572e;
     }
   }
 
