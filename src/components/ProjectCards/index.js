@@ -35,6 +35,7 @@ const ProjectCards = () => {
                 <Row>
                   <Col lg={6} md={12} sm={12} className="projectInfo">
                     <Card.Title>{project.projectName}</Card.Title>
+
                     <Card.Text>{project.description}</Card.Text>
 
                     <div className="projectDetails">

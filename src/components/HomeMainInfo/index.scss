@@ -1,4 +1,4 @@
-@import "../../../variable";
+@import "../../style/variable";
 
 .aboutMe {
   height: 100%;
@@ -9,13 +9,12 @@
   }
 
   img {
-    width: 20rem;
-    height: 20rem;
+    width: 23rem;
+    height: 23rem;
     border-radius: 0.5rem;
   }
 
   h1 {
-    margin-top: 5rem;
     font-family: $secondaryFontFamily;
   }
   p {

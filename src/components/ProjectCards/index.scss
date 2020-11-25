@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
-@import "../../../variable";
+@import "../../style/variable";
 
 .projects {
   h2 {
@@ -24,14 +24,15 @@
       width: 1.5rem;
       height: 1.5rem;
       color: #a66851;
+      margin-bottom: 0.2rem;
 
       &:hover {
-        color: #db7f67;
+        color: #6c9a8b;
       }
     }
 
     .card-body {
-      padding: 1rem 0 0 0;
+      padding: rem 0 0 0;
     }
 
     img {
@@ -41,7 +42,7 @@
     }
 
     .card-title {
-      color: #a66851;
+      color: #6c9a8b;
     }
 
     .projectInfo {
@@ -52,8 +53,11 @@
       p {
         padding: 0 0.5rem 0 1rem;
         font-size: 14px;
-        color: #a66851;
+        color: #8c5e58;
       }
+    }
+    .card-text {
+      max-width: 25rem;
     }
 
     &::before,
@@ -63,7 +67,7 @@
       top: 0;
       left: 0;
       width: 100%;
-      background: #db7f67;
+      background: #6c9a8b;
       height: 4px;
     }
 

@@ -19,25 +19,47 @@ import "./index.scss";
 
 const TechnologiesHome = () => {
   const settings = {
-    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 5,
     slidesToScroll: 2,
     autoplay: true,
     autoplaySpeed: 2000,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
     <div className="technologies">
       <Container>
-        <Row className="justify-content-md-center tech">
+        <Row className="justify-content-center tech">
           <Col>
             <h2>Technologies</h2>
           </Col>
         </Row>
         <Slider {...settings} className="slider">
-          <Col className="techDetails">
+          <Col className="techDetails ">
             <Card>
               <FontAwesomeIcon
                 icon={faReact}

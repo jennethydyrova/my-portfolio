@@ -1,40 +1,22 @@
-@import "../../../variable";
+@import "../../style/variable";
 
 .navbar-nav {
   margin-left: auto;
   align-items: baseline;
 
-  a,
-  .navbar-brand {
+  a {
     margin-left: 3rem;
     color: #fbf7f4;
     text-transform: uppercase;
     text-decoration: none;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.17em;
     position: relative;
     font-family: $mainFontFamily;
 
     &:hover {
       text-decoration: none;
-      color: #fbf7f4;
+      color: #eed2cc;
+      font-weight: bold;
     }
-  }
-
-  a::after {
-    content: "";
-    mix-blend-mode: multiply;
-    width: calc(90%);
-    height: 0;
-    position: absolute;
-    bottom: -1px;
-    left: -10px;
-    background: #e4572e;
-    transition: all 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
-  }
-
-  a:hover::after {
-    height: calc(50%);
-    color: #fff;
-    background: #e4572e;
   }
 }

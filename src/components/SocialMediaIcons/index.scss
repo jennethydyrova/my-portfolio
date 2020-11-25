@@ -4,28 +4,28 @@
   position: fixed;
   right: 0;
   margin-right: 0.5rem;
-  margin-top: 5rem;
+  margin-top: 14rem;
   z-index: 1;
 
   .icon {
-    color: #db7f67;
+    color: #6c9a8b;
     list-style-type: none;
     text-align: center;
     width: 50px;
     height: 50px;
     line-height: 50px;
     padding: 1%;
-    border: 1px solid #db7f67;
+    border: 1px solid #6c9a8b;
     cursor: pointer;
     margin-left: 10px;
     margin-bottom: 20px;
     transition: ease 0.3s;
     .mediaIcon {
-      color: #db7f67;
+      color: #6c9a8b;
     }
     &:hover {
-      color: #e4572e;
-      border: 1px solid #e4572e;
+      color: #6c9a8b;
+      border: 1px solid #6c9a8b;
     }
   }
 

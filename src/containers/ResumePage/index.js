@@ -15,11 +15,11 @@ const ResumePage = () => {
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work resumeCard "
-          contentStyle={{ background: "fff", color: "#a66851" }}
+          contentStyle={{ background: "fff", color: "#1f2421" }}
           contentArrowStyle={{ borderRight: "7px solid  fff" }}
           date="July - November 2020"
           iconStyle={{
-            background: "#405952",
+            background: "#6c9a8b",
             color: "#fff",
             paddingLeft: "5px",
           }}
@@ -35,11 +35,11 @@ const ResumePage = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work resumeCard"
-          contentStyle={{ background: "fff", color: "#a66851" }}
+          contentStyle={{ background: "fff", color: "#1f2421" }}
           contentArrowStyle={{ borderRight: "7px solid  fff" }}
           date="2019 - 2020"
           iconStyle={{
-            background: "#405952",
+            background: "#6c9a8b",
             color: "#fff",
             paddingLeft: "10px",
           }}
@@ -55,11 +55,11 @@ const ResumePage = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work resumeCard"
-          contentStyle={{ background: "fff", color: "#a66851" }}
+          contentStyle={{ background: "fff", color: "#1f2421" }}
           contentArrowStyle={{ borderRight: "7px solid  fff" }}
           date="2014-2018"
           iconStyle={{
-            background: "#405952",
+            background: "#6c9a8b",
             color: "#fff",
             paddingLeft: "5px",
           }}
@@ -76,11 +76,11 @@ const ResumePage = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work resumeCard"
-          contentStyle={{ background: "fff", color: "#a66851" }}
+          contentStyle={{ background: "fff", color: "#1f2421" }}
           contentArrowStyle={{ borderRight: "7px solid  fff" }}
           date="July - August 2018"
           iconStyle={{
-            background: "#405952",
+            background: "#6c9a8b",
             color: "#fff",
             paddingLeft: "10px",
           }}
@@ -96,11 +96,11 @@ const ResumePage = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work resumeCard"
-          contentStyle={{ background: "fff", color: "#a66851" }}
+          contentStyle={{ background: "fff", color: "#1f2421" }}
           contentArrowStyle={{ borderRight: "7px solid  fff" }}
           date="2016-2018"
           iconStyle={{
-            background: "#405952",
+            background: "#6c9a8b",
             color: "#fff",
             paddingLeft: "10px",
           }}
@@ -116,11 +116,11 @@ const ResumePage = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work resumeCard"
-          contentStyle={{ background: "fff", color: "#a66851" }}
+          contentStyle={{ background: "fff", color: "#1f2421" }}
           contentArrowStyle={{ borderRight: "7px solid  fff" }}
           date="June - August 2017"
           iconStyle={{
-            background: "#405952",
+            background: "#6c9a8b",
             color: "#fff",
             paddingLeft: "5px",
           }}
@@ -139,11 +139,11 @@ const ResumePage = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work resumeCard"
-          contentStyle={{ background: "fff", color: "#a66851" }}
+          contentStyle={{ background: "fff", color: "#1f2421" }}
           contentArrowStyle={{ borderRight: "7px solid  fff" }}
           date="June - August 2016"
           iconStyle={{
-            background: "#405952",
+            background: "#6c9a8b",
             color: "#fff",
             paddingLeft: "5px",
           }}
@@ -157,11 +157,11 @@ const ResumePage = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work resumeCard"
-          contentStyle={{ background: "fff", color: "#a66851" }}
+          contentStyle={{ background: "fff", color: "#1f2421" }}
           contentArrowStyle={{ borderRight: "7px solid  fff" }}
           date="2014-2018"
           iconStyle={{
-            background: "#405952",
+            background: "#6c9a8b",
             color: "#fff",
             paddingLeft: "10px",
           }}
