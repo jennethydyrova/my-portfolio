@@ -85,7 +85,11 @@ img.greenyLine {
     display: none;
     overflow: hidden;
   }
-  h1 {
-    text-align: center;
+
+  .aboutMe {
+    h1 {
+      text-align: center;
+      margin-top: 0rem;
+    }
   }
 }
