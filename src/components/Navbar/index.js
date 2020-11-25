@@ -5,8 +5,8 @@ import "./index.scss";
 
 const MainNavbar = () => {
   return (
-    <Container>
-      <Navbar expand="lg" collapseOnSelect>
+    <Navbar expand="lg" collapseOnSelect>
+      <Container>
         <Navbar.Brand
           href="/"
           style={{
@@ -24,8 +24,8 @@ const MainNavbar = () => {
             <NavLink to="/resume">Resume</NavLink>
           </Nav>
         </Navbar.Collapse>
-      </Navbar>
-    </Container>
+      </Container>
+    </Navbar>
   );
 };
 

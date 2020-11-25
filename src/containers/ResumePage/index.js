@@ -57,7 +57,7 @@ const ResumePage = () => {
           className="vertical-timeline-element--work resumeCard"
           contentStyle={{ background: "fff", color: "#1f2421" }}
           contentArrowStyle={{ borderRight: "7px solid  fff" }}
-          date="2014-2018"
+          date="September 2019 - August 2020"
           iconStyle={{
             background: "#6c9a8b",
             color: "#fff",
