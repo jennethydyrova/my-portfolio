@@ -38,6 +38,10 @@
   h3 {
     color: #6c9a8b;
   }
+  h6,
+  h4 {
+    color: #483d3f;
+  }
 }
 
 @include media-breakpoint-down(sm) {
