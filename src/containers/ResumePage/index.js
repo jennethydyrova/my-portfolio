@@ -24,7 +24,12 @@ const ResumePage = () => {
             <h2>My Journey</h2>
           </div>
           <div>
-            <a href={jennetResume} target="_blank" className="resumePdf">
+            <a
+              href={jennetResume}
+              target="_blank"
+              rel="noreferrer"
+              className="resumePdf"
+            >
               Download resume
             </a>
           </div>
