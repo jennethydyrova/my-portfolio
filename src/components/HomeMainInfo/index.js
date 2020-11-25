@@ -1,11 +1,19 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Button } from "react-bootstrap";
 import myPhoto from "./images/myPhoto.jpeg";
 import greenyLeaf from "./images/greenyLeaf.png";
 import greenyLine from "./images/greenyLine.png";
+import jennetResume from "./file/jennetResume.pdf";
 import "./index.scss";
 
 const HomeMainInfo = () => {
+  const handleClick = () => {
+    return (
+      <a href={jennetResume} target="_blank">
+        {" "}
+      </a>
+    );
+  };
   return (
     <div>
       <div className="greeny">
@@ -23,6 +31,11 @@ const HomeMainInfo = () => {
               Re:coded and Flatiron New York-based coding school. I have keen
               interest in backend and have experience working with databases.
             </p>
+            <Button>
+              <a href={jennetResume} target="_blank">
+                Resume
+              </a>
+            </Button>
           </div>
           <div>
             <img src={myPhoto} alt="Jennet Hydyrova" />
