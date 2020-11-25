@@ -1,0 +1,82 @@
+{
+  "technologies": [
+    {
+      "name": "React",
+      "isIcon": true,
+      "icon": "reactIcon",
+      "color": "#61DAFB",
+      "url": "https://en.reactjs.org/"
+    },
+    {
+      "name": "Sass",
+      "isIcon": true,
+      "icon": "sassIcon",
+      "color": "#C76493",
+      "url": "https://sass-lang.com/"
+    },
+    {
+      "name": "JavaScript",
+      "isIcon": true,
+      "icon": "javaScriptIcon",
+      "color": "#F7DF1B",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    },
+    {
+      "name": "Bootstrap",
+      "isIcon": true,
+      "icon": "bootstrapIcon",
+      "color": "#6C429D",
+      "url": "https://getbootstrap.com/"
+    },
+    {
+      "name": "HTML",
+      "isIcon": true,
+      "icon": "htmlIcon",
+      "color": "#2191EC",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+    },
+    {
+      "name": "CSS",
+      "isIcon": true,
+      "icon": "cssIcon",
+      "color": "#2191EC",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+    },
+    {
+      "name": "Figma",
+      "isIcon": false,
+      "icon": "figmaIcon",
+      "url": "https://www.figma.com/about/"
+    },
+    {
+      "name": "Firebase",
+      "isIcon": false,
+      "icon": "firebaseImg",
+      "url": "https://firebase.google.com/"
+    },
+    {
+      "name": "Ant Design",
+      "isIcon": false,
+      "icon": "antDesignIcon",
+      "url": "https://ant.design/"
+    },
+    {
+      "name": "PostgreSQL",
+      "isIcon": false,
+      "icon": "postgresIcon",
+      "url": "https://www.postgresql.org/"
+    },
+    {
+      "name": "Jest Tests",
+      "isIcon": false,
+      "icon": "jestIcon",
+      "url": "https://jestjs.io/"
+    },
+    {
+      "name": "Git Version Control",
+      "isIcon": false,
+      "icon": "gitIcon",
+      "url": "https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control"
+    }
+  ]
+}

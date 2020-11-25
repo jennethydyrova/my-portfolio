@@ -8,7 +8,10 @@
     height: 10rem;
   }
   .techDetails {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
   }
   .tech {
     margin-top: 5rem;
@@ -19,12 +22,14 @@
     height: 5rem;
     color: none;
     padding-top: 0.5rem;
-    margin: 1.5rem 0 0 3.3rem;
   }
 
   img {
-    margin: 1.5rem 0 0 3.2rem;
     padding-top: 0.5rem;
+  }
+
+  a {
+    color: #483d3f;
   }
 
   h2 {

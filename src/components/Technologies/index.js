@@ -15,9 +15,25 @@ import posgresSvg from "./images/posgres.png";
 import jestSvg from "./images/jest.svg";
 import gitSvg from "./images/git.png";
 import Slider from "react-slick";
+import technologyData from "./technologies.json";
 import "./index.scss";
 
 const TechnologiesHome = () => {
+  const techIconMap = {
+    reactIcon: faReact,
+    sassIcon: faSass,
+    javaScriptIcon: faJs,
+    bootstrapIcon: faBootstrap,
+    htmlIcon: faHtml5,
+    cssIcon: faCss3,
+    figmaIcon: figmaSvg,
+    firebaseImg: firebaseSvg,
+    antDesignIcon: antDesignSvg,
+    postgresIcon: posgresSvg,
+    jestIcon: jestSvg,
+    gitIcon: gitSvg,
+  };
+
   const settings = {
     infinite: true,
     speed: 500,
@@ -59,127 +75,32 @@ const TechnologiesHome = () => {
           </Col>
         </Row>
         <Slider {...settings} className="slider">
-          <Col className="techDetails ">
-            <Card>
-              <FontAwesomeIcon
-                icon={faReact}
-                className="icon"
-                style={{ color: "#61DAFB" }}
-              />
-              <Card.Text>React</Card.Text>
-            </Card>
-          </Col>
-          <Col className="techDetails">
-            <Card>
-              <FontAwesomeIcon
-                icon={faSass}
-                className="icon"
-                style={{ color: "#C76493" }}
-              />
-              <Card.Text>Sass</Card.Text>
-            </Card>
-          </Col>
-          <Col className="techDetails">
-            <Card>
-              <FontAwesomeIcon
-                icon={faJs}
-                className="icon"
-                style={{ color: "#F7DF1B" }}
-              />
-              <Card.Text>JavaScript</Card.Text>
-            </Card>
-          </Col>
-          <Col className="techDetails">
-            <Card>
-              <FontAwesomeIcon
-                icon={faBootstrap}
-                className="icon"
-                style={{ color: "#6C429D" }}
-              />
-              <Card.Text>Bootstrap</Card.Text>
-            </Card>
-          </Col>
-          <Col className="techDetails">
-            <Card>
-              <FontAwesomeIcon
-                icon={faCss3}
-                className="icon"
-                style={{ color: "#2191EC" }}
-              />
-              <Card.Text>CSS</Card.Text>
-            </Card>
-          </Col>
-          <Col className="techDetails">
-            <Card>
-              <FontAwesomeIcon
-                icon={faHtml5}
-                className="icon"
-                style={{ color: "#2191EC" }}
-              />
-              <Card.Text>HTML</Card.Text>
-            </Card>
-          </Col>
-
-          <Col className="techDetails">
-            <Card>
-              <img
-                src={figmaSvg}
-                alt="Figma icon"
-                style={{ width: "80px", height: "80px" }}
-              />
-              <Card.Text>Figma</Card.Text>
-            </Card>
-          </Col>
-          <Col className="techDetails">
-            <Card>
-              <img
-                src={firebaseSvg}
-                alt="Firebase icon"
-                style={{ width: "80px", height: "80px" }}
-              />
-              <Card.Text>Firebase</Card.Text>
-            </Card>
-          </Col>
-          <Col className="techDetails">
-            <Card>
-              <img
-                src={antDesignSvg}
-                alt="Firebase icon"
-                style={{ width: "80px", height: "80px" }}
-              />
-              <Card.Text>Ant Design</Card.Text>
-            </Card>
-          </Col>
-          <Col className="techDetails">
-            <Card>
-              <img
-                src={posgresSvg}
-                alt="PostgreSQL icon"
-                style={{ width: "80px", height: "80px" }}
-              />
-              <Card.Text>PostgreSQL</Card.Text>
-            </Card>
-          </Col>
-          <Col className="techDetails">
-            <Card>
-              <img
-                src={jestSvg}
-                alt="Jest Testing icon"
-                style={{ width: "80px", height: "80px" }}
-              />
-              <Card.Text>Jest Tests</Card.Text>
-            </Card>
-          </Col>
-          <Col className="techDetails">
-            <Card>
-              <img
-                src={gitSvg}
-                alt="Git icon"
-                style={{ width: "80px", height: "80px" }}
-              />
-              <Card.Text>Git Version Control</Card.Text>
-            </Card>
-          </Col>
+          {technologyData.technologies.map((tech) => {
+            return (
+              <Col>
+                <Card>
+                  <div className="techDetails">
+                    {tech.isIcon ? (
+                      <FontAwesomeIcon
+                        icon={techIconMap[tech.icon]}
+                        className="icon"
+                        style={{ color: tech.color }}
+                      />
+                    ) : (
+                      <img
+                        src={techIconMap[tech.icon]}
+                        alt={tech.name}
+                        className="icon"
+                      />
+                    )}
+                    <Card.Text>
+                      <a href={tech.url}> {tech.name} </a>
+                    </Card.Text>
+                  </div>
+                </Card>
+              </Col>
+            );
+          })}
         </Slider>
       </Container>
     </div>

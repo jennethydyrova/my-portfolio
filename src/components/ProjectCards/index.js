@@ -9,11 +9,9 @@ import taskManagerProject from "./images/taskManagerProject.png";
 import madLibsProject from "./images/madLibsProject.png";
 import safePlaceProject from "./images/safePlaceProject.png";
 import myInventoryProject from "./images/myInventoryProject.png";
-import { useHistory } from "react-router-dom";
 import "./index.scss";
 
 const ProjectCards = () => {
-  const history = useHistory();
   const projectImgMap = {
     movieProjectImg: movieProject,
     taskManagerProjectImg: taskManagerProject,
@@ -35,9 +33,7 @@ const ProjectCards = () => {
                 <Row>
                   <Col lg={6} md={12} sm={12} className="projectInfo">
                     <Card.Title>{project.projectName}</Card.Title>
-
                     <Card.Text>{project.description}</Card.Text>
-
                     <div className="projectDetails">
                       <div>
                         <Card.Link href={project.githubLink} target="_blank">
@@ -62,7 +58,6 @@ const ProjectCards = () => {
                       </Row>
                     </div>
                   </Col>
-
                   <Col lg={6} md={12} sm={12}>
                     <img
                       src={projectImgMap[project.projectImg]}
