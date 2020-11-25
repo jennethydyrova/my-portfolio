@@ -45,8 +45,7 @@
 }
 
 @include media-breakpoint-down(sm) {
-  .greeny {
+  img.greenyLine2 {
     display: none;
-    overflow: hidden;
   }
 }
