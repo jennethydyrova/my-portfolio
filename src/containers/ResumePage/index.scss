@@ -18,16 +18,25 @@
 .resumePage {
   height: 100%;
 
-  h2 {
-    font-family: $mainFontFamily;
-    color: #483d3f;
-    text-align: center;
-    padding: 5rem 0;
-    font-weight: 550;
+  .resumeHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3rem;
+    h2 {
+      font-family: $mainFontFamily;
+      color: #483d3f;
+      padding: 5rem 0 1rem 0;
+      font-weight: 550;
+    }
+    .resumePdf {
+      padding-bottom: 7rem;
+      color: #6c9a8b;
+    }
   }
 
   h3 {
-    color: #8c5e58;
+    color: #6c9a8b;
   }
 }
 

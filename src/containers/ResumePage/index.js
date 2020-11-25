@@ -8,6 +8,7 @@ import { faBookmark, faFolder } from "@fortawesome/free-regular-svg-icons";
 import { faReact } from "@fortawesome/free-brands-svg-icons";
 import greenyLine2 from "../../components/HomeMainInfo/images/greenyLine2.png";
 import greenyLine from "../../components/HomeMainInfo/images/greenyLine.png";
+import jennetResume from "../../components/HomeMainInfo/file/jennetResume.pdf";
 import "./index.scss";
 
 const ResumePage = () => {
@@ -18,7 +19,17 @@ const ResumePage = () => {
         <img src={greenyLine} alt="Greeny line" className="greenyLine" />
       </div>
       <div className="resumePage">
-        <h2>My Journey</h2>
+        <div className="resumeHeader">
+          <div>
+            <h2>My Journey</h2>
+          </div>
+          <div>
+            <a href={jennetResume} target="_blank" className="resumePdf">
+              Download resume
+            </a>
+          </div>
+        </div>
+
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work resumeCard "
