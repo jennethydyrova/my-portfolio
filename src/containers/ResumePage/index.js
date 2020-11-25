@@ -6,7 +6,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookmark, faFolder } from "@fortawesome/free-regular-svg-icons";
 import { faReact } from "@fortawesome/free-brands-svg-icons";
-import greenyLeaf from "../../components/HomeMainInfo/images/greenyLeaf.png";
+import greenyLine2 from "../../components/HomeMainInfo/images/greenyLine2.png";
 import greenyLine from "../../components/HomeMainInfo/images/greenyLine.png";
 import "./index.scss";
 
@@ -14,7 +14,7 @@ const ResumePage = () => {
   return (
     <div>
       <div className="greenyRes">
-        <img src={greenyLeaf} alt="Greeny leaf" className="greenyLeaf" />
+        <img src={greenyLine} alt="Greeny line" className="greenyLine2" />
         <img src={greenyLine} alt="Greeny line" className="greenyLine" />
       </div>
       <div className="resumePage">
