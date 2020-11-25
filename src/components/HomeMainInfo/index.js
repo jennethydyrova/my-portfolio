@@ -7,13 +7,6 @@ import jennetResume from "./file/jennetResume.pdf";
 import "./index.scss";
 
 const HomeMainInfo = () => {
-  const handleClick = () => {
-    return (
-      <a href={jennetResume} target="_blank">
-        {" "}
-      </a>
-    );
-  };
   return (
     <div>
       <div className="greeny">
@@ -32,7 +25,7 @@ const HomeMainInfo = () => {
               interest in backend and have experience working with databases.
             </p>
             <Button>
-              <a href={jennetResume} target="_blank">
+              <a href={jennetResume} target="_blank" rel="noreferrer">
                 Resume
               </a>
             </Button>

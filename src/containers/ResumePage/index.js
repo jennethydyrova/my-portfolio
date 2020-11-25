@@ -14,7 +14,7 @@ const ResumePage = () => {
   return (
     <div>
       <div className="greenyRes">
-        <img src={greenyLine} alt="Greeny line" className="greenyLine2" />
+        <img src={greenyLine2} alt="Greeny line" className="greenyLine2" />
         <img src={greenyLine} alt="Greeny line" className="greenyLine" />
       </div>
       <div className="resumePage">
