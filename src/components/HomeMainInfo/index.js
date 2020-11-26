@@ -18,15 +18,16 @@ const HomeMainInfo = () => {
           <div className="aboutMeInfo">
             <h1>Hello! My name is Jennet</h1>
             <p>
-              I am Junior Frontend Web Developer based in Istanbul, who is
-              passionate about building user-friendly websites. I am graduate of
-              Re:coded Web Development bootcamp, with certificates from both
-              Re:coded and Flatiron New York-based coding school. I have keen
-              interest in backend and have experience working with databases.
+              I am a Junior Frontend Web Developer based in Istanbul, who is
+              passionate about building user-friendly websites. I am a graduate
+              of Re:coded Web Development bootcamp, with certificates from both
+              Re:coded and Flatiron School, the New York-based coding school. I
+              have keen interest in backend development and experience working
+              with databases.
             </p>
             <Button>
               <a href={jennetResume} target="_blank" rel="noreferrer">
-                Resume
+                More about me
               </a>
             </Button>
           </div>

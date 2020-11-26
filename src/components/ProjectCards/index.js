@@ -42,6 +42,7 @@ const ProjectCards = () => {
                     <Col lg={6} md={12} sm={12} className="projectInfo">
                       <Card.Title>{project.projectName}</Card.Title>
                       <Card.Text>{project.description}</Card.Text>
+
                       <div className="projectDetails">
                         <div>
                           <Card.Link href={project.githubLink} target="_blank">
@@ -50,6 +51,7 @@ const ProjectCards = () => {
                           <Card.Link href={project.demoLink} target="_blank">
                             <FontAwesomeIcon icon={faEye} className="icon" />
                           </Card.Link>
+
                           {project.youtubeLink && (
                             <Card.Link
                               href={project.youtubeLink}
@@ -61,6 +63,7 @@ const ProjectCards = () => {
                               />
                             </Card.Link>
                           )}
+                          <hr />
                         </div>
                         <Row className="techInfo">
                           {project.techUsed.map((tech) => (

@@ -30,7 +30,7 @@ const ResumePage = () => {
               rel="noreferrer"
               className="resumePdf"
             >
-              Download resume
+              Full resume as PDF
             </a>
           </div>
         </div>

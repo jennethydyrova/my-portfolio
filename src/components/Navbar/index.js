@@ -5,27 +5,18 @@ import "./index.scss";
 
 const MainNavbar = () => {
   return (
-    <Navbar expand="lg" collapseOnSelect>
-      <Container>
-        <Navbar.Brand
-          href="/"
-          style={{
-            fontSize: "22px",
-            fontWeight: "450",
-            color: "#FBF7F4",
-          }}
-        >
-          Home
-        </Navbar.Brand>
+    <Container>
+      <Navbar expand="lg" collapseOnSelect>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav>
+            <NavLink to="/">Home</NavLink>
             <NavLink to="/projects">Projects</NavLink>
             <NavLink to="/resume">Resume</NavLink>
           </Nav>
         </Navbar.Collapse>
-      </Container>
-    </Navbar>
+      </Navbar>
+    </Container>
   );
 };
 
