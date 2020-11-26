@@ -78,7 +78,7 @@ const TechnologiesHome = () => {
           {technologyData.technologies.map((tech) => {
             return (
               <Col>
-                <Card>
+                <Card onClick={() => window.open(tech.url, "_blank")}>
                   <div className="techDetails">
                     {tech.isIcon ? (
                       <FontAwesomeIcon
@@ -93,9 +93,7 @@ const TechnologiesHome = () => {
                         className="icon"
                       />
                     )}
-                    <Card.Text>
-                      <a href={tech.url}> {tech.name} </a>
-                    </Card.Text>
+                    <Card.Text>{tech.name}</Card.Text>
                   </div>
                 </Card>
               </Col>

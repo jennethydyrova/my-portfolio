@@ -20,10 +20,24 @@ const HomeMainInfo = () => {
             <p>
               I am a Junior Frontend Web Developer based in Istanbul, who is
               passionate about building user-friendly websites. I am a graduate
-              of Re:coded Web Development bootcamp, with certificates from both
-              Re:coded and Flatiron School, the New York-based coding school. I
-              have keen interest in backend development and experience working
-              with databases.
+              of Re:Coded Web Development bootcamp, with certificates from both{" "}
+              <a
+                href="https://www.re-coded.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Re:Coded
+              </a>{" "}
+              and{" "}
+              <a
+                href="https://flatironschool.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Flatiron School
+              </a>{" "}
+              , the New York-based coding school. I have keen interest in
+              backend development and experience working with databases.
             </p>
             <Button>
               <a href={jennetResume} target="_blank" rel="noreferrer">
