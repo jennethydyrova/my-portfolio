@@ -61,6 +61,7 @@ img.greenyLine {
     width: 23rem;
     height: 23rem;
     border-radius: 0.5rem;
+    margin-left: 3rem;
   }
 
   h1 {
@@ -96,6 +97,9 @@ img.greenyLine {
     h1 {
       text-align: center;
       margin-top: 0rem;
+    }
+    img {
+      margin-left: 0;
     }
   }
 }
