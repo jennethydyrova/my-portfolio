@@ -8,10 +8,11 @@
     top: 26rem;
   }
 
-  img.greenyLine2 {
-    position: absolute;
-    margin-right: -8rem;
-    right: 1rem;
+  @include media-breakpoint-down(md) {
+    img.greenyLine2 {
+      display: none;
+      overflow: hidden;
+    }
   }
 }
 

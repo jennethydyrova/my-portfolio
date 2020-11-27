@@ -9,7 +9,6 @@ import taskManagerProject from "./images/taskManagerProject.png";
 import madLibsProject from "./images/madLibsProject.png";
 import safePlaceProject from "./images/safePlaceProject.png";
 import myInventoryProject from "./images/myInventoryProject.png";
-import greenyLeaf from "../HomeMainInfo/images/greenyLeaf.png";
 import greenyLine from "../HomeMainInfo/images/greenyLine.png";
 import "./index.scss";
 
@@ -25,7 +24,6 @@ const ProjectCards = () => {
   return (
     <div>
       <div className="greenyPro">
-        <img src={greenyLeaf} alt="Greeny leaf" className="greenyLeaf" />
         <img src={greenyLine} alt="Greeny line" className="greenyLine" />
       </div>
 
