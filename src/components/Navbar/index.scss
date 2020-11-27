@@ -18,10 +18,15 @@
       color: #eed2cc;
     }
   }
+
+  @include media-breakpoint-down(md) {
+    a {
+      margin: 1rem 0;
+    }
+  }
   @include media-breakpoint-down(sm) {
     a {
-      margin-left: 0;
-      margin-top: 1rem;
+      margin: 1rem 0;
     }
   }
 }

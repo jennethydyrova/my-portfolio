@@ -21,7 +21,6 @@ img.greenyLine {
 .aboutMe {
   height: 100%;
   color: #483d3f;
-  // margin-bottom: 2rem;
 
   a {
     color: #6c9a8b;
@@ -75,6 +74,26 @@ img.greenyLine {
   }
 }
 
+@include media-breakpoint-down(lg) {
+  .infoAboutMe {
+    width: 10rem;
+  }
+
+  .greenyLeaf {
+    display: none;
+    overflow: hidden;
+  }
+
+  .aboutMe {
+    overflow: hidden;
+
+    h1 {
+      text-align: center;
+      margin-top: 0rem;
+    }
+  }
+}
+
 @include media-breakpoint-down(md) {
   .infoAboutMe {
     width: 10rem;
@@ -93,11 +112,11 @@ img.greenyLine {
   }
 
   .aboutMe {
-    overflow: hidden;
     h1 {
       text-align: center;
       margin-top: 0rem;
     }
+
     img {
       margin-left: 0;
     }
