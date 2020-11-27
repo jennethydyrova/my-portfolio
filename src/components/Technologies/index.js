@@ -56,6 +56,7 @@ const TechnologiesHome = () => {
           slidesToScroll: 3,
         },
       },
+
       {
         breakpoint: 576,
         settings: {
