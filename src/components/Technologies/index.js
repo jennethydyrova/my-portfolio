@@ -62,6 +62,7 @@ const TechnologiesHome = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          arrows: false,
         },
       },
     ],
@@ -75,6 +76,7 @@ const TechnologiesHome = () => {
             <h2>Technologies</h2>
           </Col>
         </Row>
+
         <Slider {...settings} className="slider">
           {technologyData.technologies.map((tech) => {
             return (

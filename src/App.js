@@ -1,8 +1,7 @@
-import "./App.scss";
-
-import MainNavbar from "./components/Navbar";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "./App.scss";
+import MainNavbar from "./components/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
 import "react-vertical-timeline-component/style.min.css";
