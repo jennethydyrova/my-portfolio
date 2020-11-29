@@ -6,7 +6,15 @@
       "githubLink": "https://github.com/ReCoded-Org/capstone-istanbul-safe_place",
       "demoLink": "https://safe-place.netlify.app/",
       "projectImg": "safePlaceProjectImg",
-      "techUsed": ["React", "React Bootstrap", "Sass", "i18next", "Figma"]
+      "techUsed": [
+        "React",
+        "React Bootstrap",
+        "Sass",
+        "i18next",
+        "Figma",
+        "Google Map React",
+        "Simple Chatbot React"
+      ]
     },
     {
       "projectName": "M.Y-Inventory",
@@ -31,7 +39,7 @@
       "githubLink": "https://github.com/jennethydyrova/movie-project",
       "demoLink": "https://movie-searcher-web.netlify.app/#",
       "projectImg": "movieProjectImg",
-      "techUsed": ["Javascript", "Bootstrap"]
+      "techUsed": ["Javascript", "Bootstrap", "Postman"]
     },
     {
       "projectName": "Madlibs",
