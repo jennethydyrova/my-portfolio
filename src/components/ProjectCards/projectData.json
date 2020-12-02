@@ -12,7 +12,7 @@
       "projectName": "M.Y-Inventory",
       "description": "M.Y-Inventory is an inventory management system that was created during the 2020 Innovation Hackathon. The project was awarded third place. As a team of five, we had to solve the problem of the social enterprise, Tina-Zita, who was struggling with keeping track of kitchen inventory.",
       "githubLink": "https://github.com/jennethydyrova/tina-zita.v2",
-      "demoLink": "https://my-inventory.netlify.app/",
+      "demoLink": "https://my-inventory-demo.netlify.app/",
       "youtubeLink": "https://youtu.be/6plxCYhagdA",
       "projectImg": "myInventoryProjectImg",
       "techUsed": ["React", "Ant Design", "Firebase"]
