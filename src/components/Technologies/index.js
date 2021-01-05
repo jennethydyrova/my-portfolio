@@ -9,6 +9,7 @@ import {
   faHtml5,
 } from "@fortawesome/free-brands-svg-icons";
 import firebaseSvg from "./images/firebase.svg";
+import typescriptPng from "./images/typescript.png";
 import antDesignSvg from "./images/antDesign.svg";
 import figmaSvg from "./images/figma.svg";
 import posgresSvg from "./images/posgres.png";
@@ -23,6 +24,7 @@ const TechnologiesHome = () => {
     reactIcon: faReact,
     sassIcon: faSass,
     javaScriptIcon: faJs,
+    typescriptIcon: typescriptPng,
     bootstrapIcon: faBootstrap,
     htmlIcon: faHtml5,
     cssIcon: faCss3,
