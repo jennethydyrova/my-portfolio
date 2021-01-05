@@ -22,6 +22,12 @@
       "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
     },
     {
+      "name": "TypeScript",
+      "isIcon": false,
+      "icon": "typescriptIcon",
+      "url": "https://www.typescriptlang.org/"
+    },
+    {
       "name": "Bootstrap",
       "isIcon": true,
       "icon": "bootstrapIcon",
@@ -77,12 +83,6 @@
       "isIcon": false,
       "icon": "gitIcon",
       "url": "https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control"
-    },
-    {
-      "name": "TypeScript",
-      "isIcon": false,
-      "icon": "typescriptIcon",
-      "url": "https://www.typescriptlang.org/"
     }
   ]
 }
